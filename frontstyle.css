@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+}
+
+main {
+  padding: 50px;
+}
+
+.form-wrapper {
+}
+
+.input-wrapper {
+  padding: 20px;
+}
+
+.input-wrapper > input {
+  width:100%;
+}
+
+.input-wrapper a, input{
+  padding: 15px;
+}
+
+.finish-button-wrapper {
+  border: 1px solid black;
+  background-color: cyan;
+  text-align:center;
+  width:100px;
+  margin: auto;
+  transition: background-color 1s;
+}
+
+.finish-button-wrapper:hover {
+  cursor: pointer;
+  background-color: blue;
+}

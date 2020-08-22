@@ -1,0 +1,59 @@
+header {
+  padding: 50px;
+  border-bottom: 1px solid black;
+  padding-bottom: 70px;
+}
+
+header p {
+  font-size: 3em;
+  width: 40px;
+  margin: auto;
+  float: left;
+}
+
+header a {
+  color: black;
+  padding: 0px;
+  float: right;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: green;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  background: lightblue;
+}
+
+footer {
+  background: black;
+}
+
+main {
+  font-size: 1em;
+}
+
+.main-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-wrapper {
+  background: lightgrey;
+  padding: 10px;
+  transition: background 1s;
+
+  /*ekki hægt að highlighta*/
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.button-wrapper:hover {
+  background: grey;
+  cursor: pointer;
+}
